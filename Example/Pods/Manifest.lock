@@ -1,0 +1,16 @@
+PODS:
+  - TrueTransition (0.3.1)
+
+DEPENDENCIES:
+  - TrueTransition (from `../`)
+
+EXTERNAL SOURCES:
+  TrueTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TrueTransition: 8e199cb108d8b0dcfe45cd9cc66d6aae64b337f0
+
+PODFILE CHECKSUM: 60f7ce52bfa40bb1f94de7f4a595faafc5c32c4f
+
+COCOAPODS: 1.6.0

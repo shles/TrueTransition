@@ -1,0 +1,6 @@
+framework module TrueTransition {
+  umbrella header "TrueTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

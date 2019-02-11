@@ -1,0 +1,47 @@
+//
+// Created by Артeмий Шлесберг on 2019-02-07.
+// Copyright (c) 2019 Collider. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+protocol Transition {
+    func perform(on vc: UIViewController)
+}
+
+//TODO: make options to present non animated or smth
+
+class PushTransition: Transition {
+
+    private var controllerToPush: UIViewController
+
+    init(controllerToPush: UIViewController)  {
+        self.controllerToPush = controllerToPush
+    }
+
+    func perform(on vc: UIViewController) {
+        vc.navigationController?.pushViewController(controllerToPush, animated: true)
+    }
+}
+
+class PresentTransition: Transition {
+
+    private var controllerToPresent: UIViewController
+
+    init(controllerToPresent: UIViewController)  {
+        self.controllerToPresent = controllerToPresent
+    }
+
+    func perform(on vc: UIViewController) {
+        vc.present(controllerToPresent, animated: true)
+    }
+}
+
+class PopTransition: Transition {
+    func perform(on vc: UIViewController) {
+        vc.navigationController?.popViewController(animated: true)
+    }
+}
+
+
