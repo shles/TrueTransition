@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/shles/transitionKit.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '11.0'
-  s.source_files = '*'
+  s.source_files = '*.{swift, plist}'
   s.swift_version = '4.2'
 end
