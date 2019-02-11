@@ -38,4 +38,10 @@ class PresentTransition: Transition {
     }
 }
 
+class PopTransition: Transition {
+    func perform(on vc: UIViewController) {
+        vc.navigationController?.popViewController(animated: true)
+    }
+}
+
 
