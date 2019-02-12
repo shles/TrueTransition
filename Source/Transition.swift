@@ -6,13 +6,13 @@
 import Foundation
 import UIKit
 
-protocol Transition {
+public protocol Transition {
     func perform(on vc: UIViewController)
 }
 
 //TODO: make options to present non animated or smth
 
-class PushTransition: Transition {
+open class PushTransition: Transition {
 
     private var controllerToPush: UIViewController
 
@@ -20,12 +20,12 @@ class PushTransition: Transition {
         self.controllerToPush = controllerToPush
     }
 
-    func perform(on vc: UIViewController) {
+    public func perform(on vc: UIViewController) {
         vc.navigationController?.pushViewController(controllerToPush, animated: true)
     }
 }
 
-class PresentTransition: Transition {
+open class PresentTransition: Transition {
 
     private var controllerToPresent: UIViewController
 
@@ -33,13 +33,13 @@ class PresentTransition: Transition {
         self.controllerToPresent = controllerToPresent
     }
 
-    func perform(on vc: UIViewController) {
+    public func perform(on vc: UIViewController) {
         vc.present(controllerToPresent, animated: true)
     }
 }
 
-class PopTransition: Transition {
-    func perform(on vc: UIViewController) {
+open class PopTransition: Transition {
+    public func perform(on vc: UIViewController) {
         vc.navigationController?.popViewController(animated: true)
     }
 }
