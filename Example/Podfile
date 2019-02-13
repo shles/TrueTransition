@@ -4,3 +4,7 @@ use_frameworks!
 target 'TrueTransition' do
   pod 'TrueTransition', :path => '../'  
 end
+
+target 'TrueTransitionTests' do
+  pod 'TrueTransition', :path => '../'  
+end

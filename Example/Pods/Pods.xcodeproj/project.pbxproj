@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		52555CEE956E4284A9B986C90E84B80D /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C18E266164F62CAF8CEBCEEAAC12B /* Transition.swift */; };
-		85F56102370CBB74B3829C042321A4DD /* Pods-TrueTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AB8EFD007D8CDF211518D61FB088E5 /* Pods-TrueTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		580DC44679E53DEC5BA26D2EA2C4251C /* Pods-TrueTransitionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B74D7ABA62CCDE0199DCD145CF951936 /* Pods-TrueTransitionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F56102370CBB74B3829C042321A4DD /* Pods-TrueTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D2F6DA35E6FEA84DDC05EAA5B615F8 /* Pods-TrueTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E98B554615665B83E6016FE0D22703 /* Pods-TrueTransitionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB4E7F780B40F50BFB5B072C39941 /* Pods-TrueTransitionTests-dummy.m */; };
 		9F0ABA2EBA639E92329D7FDB684BC7E7 /* TrueTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D34DDB56B0DB21CF20B52ABEE8C526 /* TrueTransition-dummy.m */; };
 		C8B6A6F6E6ECD53C294114131E42716D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CE50E2FFC93B13EF1292C5D8BFDBF24F /* Pods-TrueTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC361DBE3CDF41165D3D162B5728875E /* Pods-TrueTransition-dummy.m */; };
+		CE50E2FFC93B13EF1292C5D8BFDBF24F /* Pods-TrueTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073FF9A1C177B2FFBF320C51C438294 /* Pods-TrueTransition-dummy.m */; };
 		E1202542890D4958F0D9B2BC9418EA4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		E8678D0FE622CE2B379E11C0A0482ECE /* TrueTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F599FA51D700ED68B77E67B73D4A45 /* TrueTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9BC22D12965CEB9CD37D1426273D104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,35 +27,60 @@
 			remoteGlobalIDString = A4478FB9FC8F550A863A87988B94C9B7;
 			remoteInfo = TrueTransition;
 		};
+		F2371D3E8DC7466346BB856F67B0E73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4478FB9FC8F550A863A87988B94C9B7;
+			remoteInfo = TrueTransition;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047A247459B3556D322B304EBBC2ACEA /* Pods-TrueTransition-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrueTransition-frameworks.sh"; sourceTree = "<group>"; };
+		0D68756753DED7FCDCD9F5CA67D30F07 /* Pods-TrueTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransition-Info.plist"; sourceTree = "<group>"; };
+		184EB4E7F780B40F50BFB5B072C39941 /* Pods-TrueTransitionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrueTransitionTests-dummy.m"; sourceTree = "<group>"; };
 		1CDE7FEF6B4458725AC4DCF4B030ABBA /* TrueTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrueTransition-Info.plist"; sourceTree = "<group>"; };
-		22BF827C75508930025FAF6E02006816 /* Pods-TrueTransition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrueTransition-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CDEA13A079D7FC66F78CA568CB28383 /* Pods_TrueTransitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrueTransitionTests.framework; path = "Pods-TrueTransitionTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2614DD207A39118806465470B8D7DFF8 /* Pods-TrueTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransition.release.xcconfig"; sourceTree = "<group>"; };
+		2F5EF6DE3664590A67143488DBFD78DC /* Pods-TrueTransition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransition-acknowledgements.plist"; sourceTree = "<group>"; };
+		32E4B1659B69B736BE8C0686828A5536 /* Pods-TrueTransitionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrueTransitionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4889181586C6F3A21A074B603CC48F02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C9B928374C4D2858A74D9A1194F351B /* Pods-TrueTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransition.debug.xcconfig"; sourceTree = "<group>"; };
 		516247C04DB6F179DA89ED7F950AA387 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		53D89224E129144DD044E0DF4D873C81 /* Pods-TrueTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransition.debug.xcconfig"; sourceTree = "<group>"; };
+		5379720AA8FB1CA7A0A98BD14E9F5F0B /* Pods-TrueTransition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrueTransition-acknowledgements.markdown"; sourceTree = "<group>"; };
 		564C18E266164F62CAF8CEBCEEAAC12B /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = Source/Transition.swift; sourceTree = "<group>"; };
-		58AB8EFD007D8CDF211518D61FB088E5 /* Pods-TrueTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrueTransition-umbrella.h"; sourceTree = "<group>"; };
-		6053A2E9863D0D6ACCC8A344791D777A /* Pods-TrueTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransition-Info.plist"; sourceTree = "<group>"; };
+		6073FF9A1C177B2FFBF320C51C438294 /* Pods-TrueTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrueTransition-dummy.m"; sourceTree = "<group>"; };
+		66D2F6DA35E6FEA84DDC05EAA5B615F8 /* Pods-TrueTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrueTransition-umbrella.h"; sourceTree = "<group>"; };
+		6E31D1EDD3905FAFEC33EDED6FEF919E /* Pods_TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrueTransition.framework; path = "Pods-TrueTransition.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F599FA51D700ED68B77E67B73D4A45 /* TrueTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueTransition-umbrella.h"; sourceTree = "<group>"; };
 		7D532B2B7924F0ECC273F829C1FAC9F5 /* TrueTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrueTransition.modulemap; sourceTree = "<group>"; };
-		8551C87746E52692F2F83830F492675C /* Pods-TrueTransition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransition-acknowledgements.plist"; sourceTree = "<group>"; };
+		81604DB78F592BAB19C7011118A0A347 /* Pods-TrueTransitionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrueTransitionTests.modulemap"; sourceTree = "<group>"; };
+		8D0A80087AA4EEE3DD2D4F7E2248C7C6 /* Pods-TrueTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DC47823AFF4084935A92D62C3A4BA74 /* TrueTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TrueTransition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		939D55A346E4E06C034FE195764270E2 /* TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrueTransition.framework; path = TrueTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9513F9CC57664FCB7FB1606F55D10D48 /* Pods-TrueTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrueTransition.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BA90E104290DD0CD51C813E7775EE8FB /* Pods-TrueTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransition.release.xcconfig"; sourceTree = "<group>"; };
+		A6E8BF4E74302D7865B37152C391CAE7 /* Pods-TrueTransitionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransitionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9FAA4AEA5AF45AB67A089153A26E358 /* Pods-TrueTransition-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrueTransition-frameworks.sh"; sourceTree = "<group>"; };
+		B74D7ABA62CCDE0199DCD145CF951936 /* Pods-TrueTransitionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrueTransitionTests-umbrella.h"; sourceTree = "<group>"; };
+		C74D3EB93890E05A0F2CE1226AC652A0 /* Pods-TrueTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0291D8FD0B41F9A7016B4D9F2DFEAB9 /* Pods-TrueTransitionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransitionTests-Info.plist"; sourceTree = "<group>"; };
 		D9D34DDB56B0DB21CF20B52ABEE8C526 /* TrueTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrueTransition-dummy.m"; sourceTree = "<group>"; };
+		DD8CCA740565AC3C55E0005ED4E3AF9D /* TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrueTransition.framework; path = TrueTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E017B9DD872DF76D1BC3AB9F8E0767BA /* TrueTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueTransition-prefix.pch"; sourceTree = "<group>"; };
+		EA187D3E6A9BB1F4FB237B7A34980330 /* Pods-TrueTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrueTransition.modulemap"; sourceTree = "<group>"; };
 		F2C9EE4BEE866B81F6B55CCCBBA9AF7B /* TrueTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrueTransition.xcconfig; sourceTree = "<group>"; };
-		FAEC8791F97EB1C4902D780112B45CA4 /* Pods_TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrueTransition.framework; path = "Pods-TrueTransition.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC361DBE3CDF41165D3D162B5728875E /* Pods-TrueTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrueTransition-dummy.m"; sourceTree = "<group>"; };
+		FF087E10CB3C642097BDC0D14028541C /* Pods-TrueTransitionTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrueTransitionTests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BDA3696A5A97AB7953E7D2C9CA459F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BC22D12965CEB9CD37D1426273D104 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4CF49FEE9B541DF75BD928DEF9411D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,29 +114,12 @@
 			path = "Example/Pods/Target Support Files/TrueTransition";
 			sourceTree = "<group>";
 		};
-		25FC031919F63B245B056FE7C7BE38AB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FAEC8791F97EB1C4902D780112B45CA4 /* Pods_TrueTransition.framework */,
-				939D55A346E4E06C034FE195764270E2 /* TrueTransition.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		46443242ED4DD005FB67D009B6932D3E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				9D45B65E88153ED525745789AEF9DDE3 /* TrueTransition */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9759552632850FD71E47931CBAC868CB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE045DD2A524F72899823A3D81ED1519 /* Pods-TrueTransition */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -140,14 +151,23 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		BCB7F3981611D91D443797878364ADB1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F33E18BF922D3C17C982AF45A33D7BAA /* Pods-TrueTransition */,
+				D5ABE6B28168D49942F030A2F920BEF0 /* Pods-TrueTransitionTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				46443242ED4DD005FB67D009B6932D3E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				25FC031919F63B245B056FE7C7BE38AB /* Products */,
-				9759552632850FD71E47931CBAC868CB /* Targets Support Files */,
+				E65687BB18EE06727D8ADE10AD2A42B7 /* Products */,
+				BCB7F3981611D91D443797878364ADB1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,18 +179,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE045DD2A524F72899823A3D81ED1519 /* Pods-TrueTransition */ = {
+		D5ABE6B28168D49942F030A2F920BEF0 /* Pods-TrueTransitionTests */ = {
 			isa = PBXGroup;
 			children = (
-				9513F9CC57664FCB7FB1606F55D10D48 /* Pods-TrueTransition.modulemap */,
-				22BF827C75508930025FAF6E02006816 /* Pods-TrueTransition-acknowledgements.markdown */,
-				8551C87746E52692F2F83830F492675C /* Pods-TrueTransition-acknowledgements.plist */,
-				FC361DBE3CDF41165D3D162B5728875E /* Pods-TrueTransition-dummy.m */,
-				047A247459B3556D322B304EBBC2ACEA /* Pods-TrueTransition-frameworks.sh */,
-				6053A2E9863D0D6ACCC8A344791D777A /* Pods-TrueTransition-Info.plist */,
-				58AB8EFD007D8CDF211518D61FB088E5 /* Pods-TrueTransition-umbrella.h */,
-				53D89224E129144DD044E0DF4D873C81 /* Pods-TrueTransition.debug.xcconfig */,
-				BA90E104290DD0CD51C813E7775EE8FB /* Pods-TrueTransition.release.xcconfig */,
+				81604DB78F592BAB19C7011118A0A347 /* Pods-TrueTransitionTests.modulemap */,
+				32E4B1659B69B736BE8C0686828A5536 /* Pods-TrueTransitionTests-acknowledgements.markdown */,
+				A6E8BF4E74302D7865B37152C391CAE7 /* Pods-TrueTransitionTests-acknowledgements.plist */,
+				184EB4E7F780B40F50BFB5B072C39941 /* Pods-TrueTransitionTests-dummy.m */,
+				FF087E10CB3C642097BDC0D14028541C /* Pods-TrueTransitionTests-frameworks.sh */,
+				D0291D8FD0B41F9A7016B4D9F2DFEAB9 /* Pods-TrueTransitionTests-Info.plist */,
+				B74D7ABA62CCDE0199DCD145CF951936 /* Pods-TrueTransitionTests-umbrella.h */,
+				8D0A80087AA4EEE3DD2D4F7E2248C7C6 /* Pods-TrueTransitionTests.debug.xcconfig */,
+				C74D3EB93890E05A0F2CE1226AC652A0 /* Pods-TrueTransitionTests.release.xcconfig */,
+			);
+			name = "Pods-TrueTransitionTests";
+			path = "Target Support Files/Pods-TrueTransitionTests";
+			sourceTree = "<group>";
+		};
+		E65687BB18EE06727D8ADE10AD2A42B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E31D1EDD3905FAFEC33EDED6FEF919E /* Pods_TrueTransition.framework */,
+				1CDEA13A079D7FC66F78CA568CB28383 /* Pods_TrueTransitionTests.framework */,
+				DD8CCA740565AC3C55E0005ED4E3AF9D /* TrueTransition.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F33E18BF922D3C17C982AF45A33D7BAA /* Pods-TrueTransition */ = {
+			isa = PBXGroup;
+			children = (
+				EA187D3E6A9BB1F4FB237B7A34980330 /* Pods-TrueTransition.modulemap */,
+				5379720AA8FB1CA7A0A98BD14E9F5F0B /* Pods-TrueTransition-acknowledgements.markdown */,
+				2F5EF6DE3664590A67143488DBFD78DC /* Pods-TrueTransition-acknowledgements.plist */,
+				6073FF9A1C177B2FFBF320C51C438294 /* Pods-TrueTransition-dummy.m */,
+				A9FAA4AEA5AF45AB67A089153A26E358 /* Pods-TrueTransition-frameworks.sh */,
+				0D68756753DED7FCDCD9F5CA67D30F07 /* Pods-TrueTransition-Info.plist */,
+				66D2F6DA35E6FEA84DDC05EAA5B615F8 /* Pods-TrueTransition-umbrella.h */,
+				4C9B928374C4D2858A74D9A1194F351B /* Pods-TrueTransition.debug.xcconfig */,
+				2614DD207A39118806465470B8D7DFF8 /* Pods-TrueTransition.release.xcconfig */,
 			);
 			name = "Pods-TrueTransition";
 			path = "Target Support Files/Pods-TrueTransition";
@@ -195,9 +242,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCF0535EE88E1E02EFD4D1906F64503C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580DC44679E53DEC5BA26D2EA2C4251C /* Pods-TrueTransitionTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0BBBAC8CA11F7C3BBE90348E6CA66061 /* Pods-TrueTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E1F0AAA9B221E1557DCF3CD99F15D0 /* Build configuration list for PBXNativeTarget "Pods-TrueTransitionTests" */;
+			buildPhases = (
+				FCF0535EE88E1E02EFD4D1906F64503C /* Headers */,
+				C86E0CF2890A99182C870C63B3894E17 /* Sources */,
+				BDA3696A5A97AB7953E7D2C9CA459F32 /* Frameworks */,
+				8A8656065510D2D5A6D2CCCBDB9E6D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C8DA8E868DFEB8F4F8FC71FEBA9DE58 /* PBXTargetDependency */,
+			);
+			name = "Pods-TrueTransitionTests";
+			productName = "Pods-TrueTransitionTests";
+			productReference = 1CDEA13A079D7FC66F78CA568CB28383 /* Pods_TrueTransitionTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		76076E2ED3DA75A65FCCAC68B870B6ED /* Pods-TrueTransition */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0256B9A7E5E890324A997AA746463C5 /* Build configuration list for PBXNativeTarget "Pods-TrueTransition" */;
@@ -214,7 +288,7 @@
 			);
 			name = "Pods-TrueTransition";
 			productName = "Pods-TrueTransition";
-			productReference = FAEC8791F97EB1C4902D780112B45CA4 /* Pods_TrueTransition.framework */;
+			productReference = 6E31D1EDD3905FAFEC33EDED6FEF919E /* Pods_TrueTransition.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A4478FB9FC8F550A863A87988B94C9B7 /* TrueTransition */ = {
@@ -232,7 +306,7 @@
 			);
 			name = TrueTransition;
 			productName = TrueTransition;
-			productReference = 939D55A346E4E06C034FE195764270E2 /* TrueTransition.framework */;
+			productReference = DD8CCA740565AC3C55E0005ED4E3AF9D /* TrueTransition.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,11 +326,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 25FC031919F63B245B056FE7C7BE38AB /* Products */;
+			productRefGroup = E65687BB18EE06727D8ADE10AD2A42B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				76076E2ED3DA75A65FCCAC68B870B6ED /* Pods-TrueTransition */,
+				0BBBAC8CA11F7C3BBE90348E6CA66061 /* Pods-TrueTransitionTests */,
 				A4478FB9FC8F550A863A87988B94C9B7 /* TrueTransition */,
 			);
 		};
@@ -264,6 +339,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		1C043AD2DEA3D07CFA988C200266C844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8656065510D2D5A6D2CCCBDB9E6D50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,6 +362,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C86E0CF2890A99182C870C63B3894E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E98B554615665B83E6016FE0D22703 /* Pods-TrueTransitionTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F885A8EA0D04454E64076A8D0C183EBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +390,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7C8DA8E868DFEB8F4F8FC71FEBA9DE58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrueTransition;
+			target = A4478FB9FC8F550A863A87988B94C9B7 /* TrueTransition */;
+			targetProxy = F2371D3E8DC7466346BB856F67B0E73F /* PBXContainerItemProxy */;
+		};
 		DF6319B28ADA81A7C42561FD96562C6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TrueTransition;
@@ -311,7 +407,7 @@
 /* Begin XCBuildConfiguration section */
 		02ABF90C8D4444B3E09116D80AE5A365 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53D89224E129144DD044E0DF4D873C81 /* Pods-TrueTransition.debug.xcconfig */;
+			baseConfigurationReference = 4C9B928374C4D2858A74D9A1194F351B /* Pods-TrueTransition.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -385,7 +481,7 @@
 		};
 		2AE96AD9C6C29F6055391F5697A4FCE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA90E104290DD0CD51C813E7775EE8FB /* Pods-TrueTransition.release.xcconfig */;
+			baseConfigurationReference = 2614DD207A39118806465470B8D7DFF8 /* Pods-TrueTransition.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -421,6 +517,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		3206153EFE45EDB3E380A51DA34E7517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0A80087AA4EEE3DD2D4F7E2248C7C6 /* Pods-TrueTransitionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -479,6 +613,45 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5EC48DDB163CDB1B6BCC332C92022A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74D3EB93890E05A0F2CE1226AC652A0 /* Pods-TrueTransitionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -600,6 +773,15 @@
 			buildConfigurations = (
 				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
 				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E1F0AAA9B221E1557DCF3CD99F15D0 /* Build configuration list for PBXNativeTarget "Pods-TrueTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3206153EFE45EDB3E380A51DA34E7517 /* Debug */,
+				5EC48DDB163CDB1B6BCC332C92022A65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

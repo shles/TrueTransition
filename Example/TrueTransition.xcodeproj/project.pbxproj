@@ -18,6 +18,7 @@
 /* Begin PBXFileReference section */
 		25BC6E13ADFF61552D53AEA3 /* Pods-TrueTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransition.debug.xcconfig"; path = "Target Support Files/Pods-TrueTransition/Pods-TrueTransition.debug.xcconfig"; sourceTree = "<group>"; };
 		3CAAC42383CC589E620076D5 /* Pods-TrueTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransition.release.xcconfig"; path = "Target Support Files/Pods-TrueTransition/Pods-TrueTransition.release.xcconfig"; sourceTree = "<group>"; };
+		676B67E1906931003A09EFCF /* Pods_TrueTransitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueTransitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		700B7AA12211A88F00CC9D15 /* TrueTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		700B7AA42211A88F00CC9D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		700B7AA62211A88F00CC9D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +26,8 @@
 		700B7AAB2211A88F00CC9D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700B7AAE2211A88F00CC9D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		700B7AB02211A88F00CC9D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D98CEF63523AE25E1F8BE5 /* Pods-TrueTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransitionTests.debug.xcconfig"; path = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE00EF11BA7A31846D0EE7BB /* Pods-TrueTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransitionTests.release.xcconfig"; path = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF778485676D1D5C9F21F49B /* Pods_TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -44,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				FF778485676D1D5C9F21F49B /* Pods_TrueTransition.framework */,
+				676B67E1906931003A09EFCF /* Pods_TrueTransitionTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,8 +88,9 @@
 			children = (
 				25BC6E13ADFF61552D53AEA3 /* Pods-TrueTransition.debug.xcconfig */,
 				3CAAC42383CC589E620076D5 /* Pods-TrueTransition.release.xcconfig */,
+				84D98CEF63523AE25E1F8BE5 /* Pods-TrueTransitionTests.debug.xcconfig */,
+				AE00EF11BA7A31846D0EE7BB /* Pods-TrueTransitionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
