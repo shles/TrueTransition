@@ -45,3 +45,26 @@ open class PopTransition: Transition {
 }
 
 
+open class DismissTransition: Transition {
+    public func perform(on viewController: UIViewController) {
+        viewController.dismiss(animated: true)
+    }
+}
+
+open class  NewWindowRootControllerTransition: Transition {
+    private let leadingTo: () -> (UIViewController)
+    
+    init(leadingTo: @escaping () -> (UIViewController)) {
+        self.leadingTo = leadingTo
+    }
+    
+    public func perform(on viewController: UIViewController) {
+        let vc = leadingTo()
+        viewController.present(vc, animated: true) {
+            UIApplication.shared.keyWindow?.rootViewController = vc
+        }
+        
+    }
+}
+
+
