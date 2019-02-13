@@ -12,11 +12,11 @@ public protocol Transition {
 
 //TODO: make options to present non animated or smth
 
-open class PushTransition: Transition {
+public class PushTransition: Transition {
 
     private var controllerToPush: () -> UIViewController
 
-    init(controllerToPush: @escaping () -> UIViewController)  {
+    public init(controllerToPush: @escaping () -> UIViewController)  {
         self.controllerToPush = controllerToPush
     }
 
@@ -29,7 +29,7 @@ open class PresentTransition: Transition {
 
     private var controllerToPresent: () -> UIViewController
 
-    init(controllerToPresent: @escaping () -> UIViewController)  {
+    public init(controllerToPresent: @escaping () -> UIViewController)  {
         self.controllerToPresent = controllerToPresent
     }
 
@@ -54,7 +54,7 @@ open class DismissTransition: Transition {
 open class  NewWindowRootControllerTransition: Transition {
     private let leadingTo: () -> (UIViewController)
     
-    init(leadingTo: @escaping () -> (UIViewController)) {
+    public init(leadingTo: @escaping () -> (UIViewController)) {
         self.leadingTo = leadingTo
     }
     
