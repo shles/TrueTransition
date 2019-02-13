@@ -14,27 +14,27 @@ public protocol Transition {
 
 open class PushTransition: Transition {
 
-    private var controllerToPush: UIViewController
+    private var controllerToPush: () -> UIViewController
 
-    init(controllerToPush: UIViewController)  {
+    init(controllerToPush: @escaping () -> UIViewController)  {
         self.controllerToPush = controllerToPush
     }
 
     public func perform(on vc: UIViewController) {
-        vc.navigationController?.pushViewController(controllerToPush, animated: true)
+        vc.navigationController?.pushViewController(controllerToPush(), animated: true)
     }
 }
 
 open class PresentTransition: Transition {
 
-    private var controllerToPresent: UIViewController
+    private var controllerToPresent: () -> UIViewController
 
-    init(controllerToPresent: UIViewController)  {
+    init(controllerToPresent: @escaping () -> UIViewController)  {
         self.controllerToPresent = controllerToPresent
     }
 
     public func perform(on vc: UIViewController) {
-        vc.present(controllerToPresent, animated: true)
+        vc.present(controllerToPresent(), animated: true)
     }
 }
 
