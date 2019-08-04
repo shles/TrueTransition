@@ -67,6 +67,24 @@ open class  NewWindowRootControllerTransition: Transition {
     }
 }
 
+open class CardsTransition: Transition {
+    
+    private var controllerToPresent: () -> UIViewController
+    
+    public init(controllerToPresent: @escaping () -> UIViewController)  {
+        self.controllerToPresent = controllerToPresent
+    }
+    
+    public func perform(on vc: UIViewController) {
+        
+        let cardViewController = CardsViewController(nibName: "CardsViewController",
+                                                     bundle: nil)
+        cardViewController.backingImage = vc.view.makeSnapshot()
+        cardViewController.controllerToPresent = controllerToPresent()
+        vc.present(cardViewController, animated: false)
+    }
+}
+
 open class DefaultErrorAlertTransition: Transition {
     
     private var title: String
