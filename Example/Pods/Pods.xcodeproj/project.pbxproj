@@ -3,302 +3,230 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52555CEE956E4284A9B986C90E84B80D /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C18E266164F62CAF8CEBCEEAAC12B /* Transition.swift */; };
-		580DC44679E53DEC5BA26D2EA2C4251C /* Pods-TrueTransitionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B74D7ABA62CCDE0199DCD145CF951936 /* Pods-TrueTransitionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85F56102370CBB74B3829C042321A4DD /* Pods-TrueTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D2F6DA35E6FEA84DDC05EAA5B615F8 /* Pods-TrueTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89E98B554615665B83E6016FE0D22703 /* Pods-TrueTransitionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EB4E7F780B40F50BFB5B072C39941 /* Pods-TrueTransitionTests-dummy.m */; };
-		9F0ABA2EBA639E92329D7FDB684BC7E7 /* TrueTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D34DDB56B0DB21CF20B52ABEE8C526 /* TrueTransition-dummy.m */; };
-		C8B6A6F6E6ECD53C294114131E42716D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CE50E2FFC93B13EF1292C5D8BFDBF24F /* Pods-TrueTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073FF9A1C177B2FFBF320C51C438294 /* Pods-TrueTransition-dummy.m */; };
-		E1202542890D4958F0D9B2BC9418EA4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E8678D0FE622CE2B379E11C0A0482ECE /* TrueTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F599FA51D700ED68B77E67B73D4A45 /* TrueTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9BC22D12965CEB9CD37D1426273D104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		075E3D30C0B8190A83BAE6ECD2C7AF49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		194E43A726233F447D2AF9479547DDF0 /* Pods-TrueTransitionExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 393DB3C9C8C6CF01B2B2EB1209BE038F /* Pods-TrueTransitionExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A14E7E61556EBDA1FDCE599A41030D6 /* TrueTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6C61B73EDD17D2B0A43AD46CE53442 /* TrueTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36B3A865E57B4307F9948D99AF46D7AF /* TrueTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A427781257EBC00727CDE1C4AF20CD /* TrueTransition-dummy.m */; };
+		406BFFDE2302D8245A8A340A2DB76EEB /* CardsViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 399CAA42B37C210D5378C0BE674EA3F1 /* CardsViewController.xib */; };
+		8080A0C57898F661CC7FB1439E5A5D8F /* CardsTransitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A29FA42A00A008311D8841CCEBB08 /* CardsTransitionProtocol.swift */; };
+		9E22000ECA69958E7FF3A30919CB2A5A /* UIView+snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BB9550FEA89EF77DD26617B7A3857 /* UIView+snapshot.swift */; };
+		BC9E3C867431417099E2903902668F3A /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FD4E57E56466497DCFE30B1112266 /* Transition.swift */; };
+		D25D029D0FBF30C84F0292FE729D09EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F71157E1ABAD168D29E435CA273AAD52 /* Pods-TrueTransitionExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D24270F925874E87BE44F110DD93A65 /* Pods-TrueTransitionExample-dummy.m */; };
+		FC9AB2F0E3A5E1E40B06BD46242711A2 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB974458938225CFF05030FF65E5CFAA /* CardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C15B33FCD6752712B933EA62BA77DCD /* PBXContainerItemProxy */ = {
+		6AE3450A2D32EA1E033EB913A053366E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4478FB9FC8F550A863A87988B94C9B7;
-			remoteInfo = TrueTransition;
-		};
-		F2371D3E8DC7466346BB856F67B0E73F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4478FB9FC8F550A863A87988B94C9B7;
+			remoteGlobalIDString = B5AF9A5EB44D734985EF6E628CD0CFFF;
 			remoteInfo = TrueTransition;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D68756753DED7FCDCD9F5CA67D30F07 /* Pods-TrueTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransition-Info.plist"; sourceTree = "<group>"; };
-		184EB4E7F780B40F50BFB5B072C39941 /* Pods-TrueTransitionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrueTransitionTests-dummy.m"; sourceTree = "<group>"; };
-		1CDE7FEF6B4458725AC4DCF4B030ABBA /* TrueTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrueTransition-Info.plist"; sourceTree = "<group>"; };
-		1CDEA13A079D7FC66F78CA568CB28383 /* Pods_TrueTransitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrueTransitionTests.framework; path = "Pods-TrueTransitionTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2614DD207A39118806465470B8D7DFF8 /* Pods-TrueTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransition.release.xcconfig"; sourceTree = "<group>"; };
-		2F5EF6DE3664590A67143488DBFD78DC /* Pods-TrueTransition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransition-acknowledgements.plist"; sourceTree = "<group>"; };
-		32E4B1659B69B736BE8C0686828A5536 /* Pods-TrueTransitionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrueTransitionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4889181586C6F3A21A074B603CC48F02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4C9B928374C4D2858A74D9A1194F351B /* Pods-TrueTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransition.debug.xcconfig"; sourceTree = "<group>"; };
-		516247C04DB6F179DA89ED7F950AA387 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5379720AA8FB1CA7A0A98BD14E9F5F0B /* Pods-TrueTransition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrueTransition-acknowledgements.markdown"; sourceTree = "<group>"; };
-		564C18E266164F62CAF8CEBCEEAAC12B /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = Source/Transition.swift; sourceTree = "<group>"; };
-		6073FF9A1C177B2FFBF320C51C438294 /* Pods-TrueTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrueTransition-dummy.m"; sourceTree = "<group>"; };
-		66D2F6DA35E6FEA84DDC05EAA5B615F8 /* Pods-TrueTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrueTransition-umbrella.h"; sourceTree = "<group>"; };
-		6E31D1EDD3905FAFEC33EDED6FEF919E /* Pods_TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrueTransition.framework; path = "Pods-TrueTransition.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74F599FA51D700ED68B77E67B73D4A45 /* TrueTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueTransition-umbrella.h"; sourceTree = "<group>"; };
-		7D532B2B7924F0ECC273F829C1FAC9F5 /* TrueTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrueTransition.modulemap; sourceTree = "<group>"; };
-		81604DB78F592BAB19C7011118A0A347 /* Pods-TrueTransitionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrueTransitionTests.modulemap"; sourceTree = "<group>"; };
-		8D0A80087AA4EEE3DD2D4F7E2248C7C6 /* Pods-TrueTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8DC47823AFF4084935A92D62C3A4BA74 /* TrueTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TrueTransition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A61389D3EC2EFD187C6152F2827827B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1320771CCF919B0ABFEFB2BE76E5C6D4 /* Pods-TrueTransitionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransitionExample.debug.xcconfig"; sourceTree = "<group>"; };
+		1A2B2C2D5E1C929179531C79ACD9B10C /* Pods-TrueTransitionExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrueTransitionExample.modulemap"; sourceTree = "<group>"; };
+		1F5F8D0428EF6A9CE44B753CE6601E86 /* TrueTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrueTransition.modulemap; sourceTree = "<group>"; };
+		26734E4EBAF16658E41ED509FFCD25FD /* Pods-TrueTransitionExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransitionExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		356BB9550FEA89EF77DD26617B7A3857 /* UIView+snapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+snapshot.swift"; sourceTree = "<group>"; };
+		393DB3C9C8C6CF01B2B2EB1209BE038F /* Pods-TrueTransitionExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrueTransitionExample-umbrella.h"; sourceTree = "<group>"; };
+		399CAA42B37C210D5378C0BE674EA3F1 /* CardsViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CardsViewController.xib; sourceTree = "<group>"; };
+		40E825E50BC6BC1F0A594C322B6F86D8 /* TrueTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TrueTransition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B8A29FA42A00A008311D8841CCEBB08 /* CardsTransitionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardsTransitionProtocol.swift; sourceTree = "<group>"; };
+		522E5D1BE0D2255019D50FF2C95CD190 /* Pods_TrueTransitionExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrueTransitionExample.framework; path = "Pods-TrueTransitionExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B6D361A101837732EEEA20F411CD70 /* Pods-TrueTransitionExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrueTransitionExample-frameworks.sh"; sourceTree = "<group>"; };
+		7347746160AEEFBF75F128354DC7EE31 /* TrueTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrueTransition-Info.plist"; sourceTree = "<group>"; };
+		755C2BB43815C2ADE289024800BA49B7 /* TrueTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueTransition-prefix.pch"; sourceTree = "<group>"; };
+		7C82D7E747B07262CD42630CC7ED08D2 /* TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrueTransition.framework; path = TrueTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F0A4AC83A1FB354CE8F233012CFBE6 /* Pods-TrueTransitionExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrueTransitionExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D24270F925874E87BE44F110DD93A65 /* Pods-TrueTransitionExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrueTransitionExample-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6E8BF4E74302D7865B37152C391CAE7 /* Pods-TrueTransitionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransitionTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9FAA4AEA5AF45AB67A089153A26E358 /* Pods-TrueTransition-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrueTransition-frameworks.sh"; sourceTree = "<group>"; };
-		B74D7ABA62CCDE0199DCD145CF951936 /* Pods-TrueTransitionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrueTransitionTests-umbrella.h"; sourceTree = "<group>"; };
-		C74D3EB93890E05A0F2CE1226AC652A0 /* Pods-TrueTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0291D8FD0B41F9A7016B4D9F2DFEAB9 /* Pods-TrueTransitionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransitionTests-Info.plist"; sourceTree = "<group>"; };
-		D9D34DDB56B0DB21CF20B52ABEE8C526 /* TrueTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrueTransition-dummy.m"; sourceTree = "<group>"; };
-		DD8CCA740565AC3C55E0005ED4E3AF9D /* TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrueTransition.framework; path = TrueTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E017B9DD872DF76D1BC3AB9F8E0767BA /* TrueTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueTransition-prefix.pch"; sourceTree = "<group>"; };
-		EA187D3E6A9BB1F4FB237B7A34980330 /* Pods-TrueTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrueTransition.modulemap"; sourceTree = "<group>"; };
-		F2C9EE4BEE866B81F6B55CCCBBA9AF7B /* TrueTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrueTransition.xcconfig; sourceTree = "<group>"; };
-		FF087E10CB3C642097BDC0D14028541C /* Pods-TrueTransitionTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrueTransitionTests-frameworks.sh"; sourceTree = "<group>"; };
+		A3DAE34540DB2E9196A164CE6F2E1ACE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B29B9AE3F6E5A57617A203760B83D710 /* TrueTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrueTransition.xcconfig; sourceTree = "<group>"; };
+		B46FD4E57E56466497DCFE30B1112266 /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = Source/Transition.swift; sourceTree = "<group>"; };
+		BD6C61B73EDD17D2B0A43AD46CE53442 /* TrueTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueTransition-umbrella.h"; sourceTree = "<group>"; };
+		C0BA2FA1C2DBA87CF8A20ADF85B594E0 /* Pods-TrueTransitionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrueTransitionExample.release.xcconfig"; sourceTree = "<group>"; };
+		C1966ECA849603C30B16E4A58B049560 /* Pods-TrueTransitionExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrueTransitionExample-Info.plist"; sourceTree = "<group>"; };
+		E1A427781257EBC00727CDE1C4AF20CD /* TrueTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrueTransition-dummy.m"; sourceTree = "<group>"; };
+		FB974458938225CFF05030FF65E5CFAA /* CardsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BDA3696A5A97AB7953E7D2C9CA459F32 /* Frameworks */ = {
+		3E2B1812FCA9A665A439C6CA3AF50762 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BC22D12965CEB9CD37D1426273D104 /* Foundation.framework in Frameworks */,
+				D25D029D0FBF30C84F0292FE729D09EF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4CF49FEE9B541DF75BD928DEF9411D4 /* Frameworks */ = {
+		76C38F9E667AA123E319F3945E9F338B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B6A6F6E6ECD53C294114131E42716D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7531778F26FE73989579E846AB4857D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1202542890D4958F0D9B2BC9418EA4B /* Foundation.framework in Frameworks */,
+				075E3D30C0B8190A83BAE6ECD2C7AF49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		133D7D6D0E261FC5F84DD1DC34DCD39F /* Support Files */ = {
+		090318EA1A53EE05957D18816A421B73 /* TrueTransition */ = {
 			isa = PBXGroup;
 			children = (
-				7D532B2B7924F0ECC273F829C1FAC9F5 /* TrueTransition.modulemap */,
-				F2C9EE4BEE866B81F6B55CCCBBA9AF7B /* TrueTransition.xcconfig */,
-				D9D34DDB56B0DB21CF20B52ABEE8C526 /* TrueTransition-dummy.m */,
-				1CDE7FEF6B4458725AC4DCF4B030ABBA /* TrueTransition-Info.plist */,
-				E017B9DD872DF76D1BC3AB9F8E0767BA /* TrueTransition-prefix.pch */,
-				74F599FA51D700ED68B77E67B73D4A45 /* TrueTransition-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TrueTransition";
-			sourceTree = "<group>";
-		};
-		46443242ED4DD005FB67D009B6932D3E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9D45B65E88153ED525745789AEF9DDE3 /* TrueTransition */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9D45B65E88153ED525745789AEF9DDE3 /* TrueTransition */ = {
-			isa = PBXGroup;
-			children = (
-				564C18E266164F62CAF8CEBCEEAAC12B /* Transition.swift */,
-				A020D00D88E580A98E9621191948B7A6 /* Pod */,
-				133D7D6D0E261FC5F84DD1DC34DCD39F /* Support Files */,
+				B46FD4E57E56466497DCFE30B1112266 /* Transition.swift */,
+				538509792E0D44FB45A008A997C24796 /* CardsViewController */,
+				F319A294AFBB316E7BF2AA60E7E4C909 /* Pod */,
+				734F40DD6976AF9C8E4F77E0661C3586 /* Support Files */,
 			);
 			name = TrueTransition;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		A020D00D88E580A98E9621191948B7A6 /* Pod */ = {
+		538509792E0D44FB45A008A997C24796 /* CardsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4889181586C6F3A21A074B603CC48F02 /* LICENSE */,
-				516247C04DB6F179DA89ED7F950AA387 /* README.md */,
-				8DC47823AFF4084935A92D62C3A4BA74 /* TrueTransition.podspec */,
+				4B8A29FA42A00A008311D8841CCEBB08 /* CardsTransitionProtocol.swift */,
+				FB974458938225CFF05030FF65E5CFAA /* CardsViewController.swift */,
+				399CAA42B37C210D5378C0BE674EA3F1 /* CardsViewController.xib */,
+				356BB9550FEA89EF77DD26617B7A3857 /* UIView+snapshot.swift */,
 			);
-			name = Pod;
+			name = CardsViewController;
+			path = Source/CardsViewController;
 			sourceTree = "<group>";
 		};
-		BCB7F3981611D91D443797878364ADB1 /* Targets Support Files */ = {
+		5EFC98A7A1D73AF2D4FCB5BD416E14F3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F33E18BF922D3C17C982AF45A33D7BAA /* Pods-TrueTransition */,
-				D5ABE6B28168D49942F030A2F920BEF0 /* Pods-TrueTransitionTests */,
+				090318EA1A53EE05957D18816A421B73 /* TrueTransition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		734F40DD6976AF9C8E4F77E0661C3586 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F5F8D0428EF6A9CE44B753CE6601E86 /* TrueTransition.modulemap */,
+				B29B9AE3F6E5A57617A203760B83D710 /* TrueTransition.xcconfig */,
+				E1A427781257EBC00727CDE1C4AF20CD /* TrueTransition-dummy.m */,
+				7347746160AEEFBF75F128354DC7EE31 /* TrueTransition-Info.plist */,
+				755C2BB43815C2ADE289024800BA49B7 /* TrueTransition-prefix.pch */,
+				BD6C61B73EDD17D2B0A43AD46CE53442 /* TrueTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TrueTransition";
+			sourceTree = "<group>";
+		};
+		7E183C4496FCD77276B80CDBEF7D4DAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE7FBB99EA0595987B5730BA770D94D9 /* Pods-TrueTransitionExample */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		804A132FE1F7D8BDAD5ED9FB12E89FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522E5D1BE0D2255019D50FF2C95CD190 /* Pods_TrueTransitionExample.framework */,
+				7C82D7E747B07262CD42630CC7ED08D2 /* TrueTransition.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE7FBB99EA0595987B5730BA770D94D9 /* Pods-TrueTransitionExample */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B2C2D5E1C929179531C79ACD9B10C /* Pods-TrueTransitionExample.modulemap */,
+				85F0A4AC83A1FB354CE8F233012CFBE6 /* Pods-TrueTransitionExample-acknowledgements.markdown */,
+				26734E4EBAF16658E41ED509FFCD25FD /* Pods-TrueTransitionExample-acknowledgements.plist */,
+				9D24270F925874E87BE44F110DD93A65 /* Pods-TrueTransitionExample-dummy.m */,
+				56B6D361A101837732EEEA20F411CD70 /* Pods-TrueTransitionExample-frameworks.sh */,
+				C1966ECA849603C30B16E4A58B049560 /* Pods-TrueTransitionExample-Info.plist */,
+				393DB3C9C8C6CF01B2B2EB1209BE038F /* Pods-TrueTransitionExample-umbrella.h */,
+				1320771CCF919B0ABFEFB2BE76E5C6D4 /* Pods-TrueTransitionExample.debug.xcconfig */,
+				C0BA2FA1C2DBA87CF8A20ADF85B594E0 /* Pods-TrueTransitionExample.release.xcconfig */,
+			);
+			name = "Pods-TrueTransitionExample";
+			path = "Target Support Files/Pods-TrueTransitionExample";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				46443242ED4DD005FB67D009B6932D3E /* Development Pods */,
+				5EFC98A7A1D73AF2D4FCB5BD416E14F3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E65687BB18EE06727D8ADE10AD2A42B7 /* Products */,
-				BCB7F3981611D91D443797878364ADB1 /* Targets Support Files */,
+				804A132FE1F7D8BDAD5ED9FB12E89FC3 /* Products */,
+				7E183C4496FCD77276B80CDBEF7D4DAD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5ABE6B28168D49942F030A2F920BEF0 /* Pods-TrueTransitionTests */ = {
+		F319A294AFBB316E7BF2AA60E7E4C909 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				81604DB78F592BAB19C7011118A0A347 /* Pods-TrueTransitionTests.modulemap */,
-				32E4B1659B69B736BE8C0686828A5536 /* Pods-TrueTransitionTests-acknowledgements.markdown */,
-				A6E8BF4E74302D7865B37152C391CAE7 /* Pods-TrueTransitionTests-acknowledgements.plist */,
-				184EB4E7F780B40F50BFB5B072C39941 /* Pods-TrueTransitionTests-dummy.m */,
-				FF087E10CB3C642097BDC0D14028541C /* Pods-TrueTransitionTests-frameworks.sh */,
-				D0291D8FD0B41F9A7016B4D9F2DFEAB9 /* Pods-TrueTransitionTests-Info.plist */,
-				B74D7ABA62CCDE0199DCD145CF951936 /* Pods-TrueTransitionTests-umbrella.h */,
-				8D0A80087AA4EEE3DD2D4F7E2248C7C6 /* Pods-TrueTransitionTests.debug.xcconfig */,
-				C74D3EB93890E05A0F2CE1226AC652A0 /* Pods-TrueTransitionTests.release.xcconfig */,
+				A3DAE34540DB2E9196A164CE6F2E1ACE /* LICENSE */,
+				0A61389D3EC2EFD187C6152F2827827B /* README.md */,
+				40E825E50BC6BC1F0A594C322B6F86D8 /* TrueTransition.podspec */,
 			);
-			name = "Pods-TrueTransitionTests";
-			path = "Target Support Files/Pods-TrueTransitionTests";
-			sourceTree = "<group>";
-		};
-		E65687BB18EE06727D8ADE10AD2A42B7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6E31D1EDD3905FAFEC33EDED6FEF919E /* Pods_TrueTransition.framework */,
-				1CDEA13A079D7FC66F78CA568CB28383 /* Pods_TrueTransitionTests.framework */,
-				DD8CCA740565AC3C55E0005ED4E3AF9D /* TrueTransition.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F33E18BF922D3C17C982AF45A33D7BAA /* Pods-TrueTransition */ = {
-			isa = PBXGroup;
-			children = (
-				EA187D3E6A9BB1F4FB237B7A34980330 /* Pods-TrueTransition.modulemap */,
-				5379720AA8FB1CA7A0A98BD14E9F5F0B /* Pods-TrueTransition-acknowledgements.markdown */,
-				2F5EF6DE3664590A67143488DBFD78DC /* Pods-TrueTransition-acknowledgements.plist */,
-				6073FF9A1C177B2FFBF320C51C438294 /* Pods-TrueTransition-dummy.m */,
-				A9FAA4AEA5AF45AB67A089153A26E358 /* Pods-TrueTransition-frameworks.sh */,
-				0D68756753DED7FCDCD9F5CA67D30F07 /* Pods-TrueTransition-Info.plist */,
-				66D2F6DA35E6FEA84DDC05EAA5B615F8 /* Pods-TrueTransition-umbrella.h */,
-				4C9B928374C4D2858A74D9A1194F351B /* Pods-TrueTransition.debug.xcconfig */,
-				2614DD207A39118806465470B8D7DFF8 /* Pods-TrueTransition.release.xcconfig */,
-			);
-			name = "Pods-TrueTransition";
-			path = "Target Support Files/Pods-TrueTransition";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		22A67367E87C92EF02BA75D544EA749B /* Headers */ = {
+		A1B630F1B20CCDCF9FC816E0882D705E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8678D0FE622CE2B379E11C0A0482ECE /* TrueTransition-umbrella.h in Headers */,
+				194E43A726233F447D2AF9479547DDF0 /* Pods-TrueTransitionExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CCE5537A9873867969732827D6C72D0 /* Headers */ = {
+		D562337DD604134B6D5A94132E5CA19A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85F56102370CBB74B3829C042321A4DD /* Pods-TrueTransition-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCF0535EE88E1E02EFD4D1906F64503C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				580DC44679E53DEC5BA26D2EA2C4251C /* Pods-TrueTransitionTests-umbrella.h in Headers */,
+				2A14E7E61556EBDA1FDCE599A41030D6 /* TrueTransition-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BBBAC8CA11F7C3BBE90348E6CA66061 /* Pods-TrueTransitionTests */ = {
+		B5AF9A5EB44D734985EF6E628CD0CFFF /* TrueTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57E1F0AAA9B221E1557DCF3CD99F15D0 /* Build configuration list for PBXNativeTarget "Pods-TrueTransitionTests" */;
+			buildConfigurationList = 18FBA69465DBC8713FFCBFCA021A9A70 /* Build configuration list for PBXNativeTarget "TrueTransition" */;
 			buildPhases = (
-				FCF0535EE88E1E02EFD4D1906F64503C /* Headers */,
-				C86E0CF2890A99182C870C63B3894E17 /* Sources */,
-				BDA3696A5A97AB7953E7D2C9CA459F32 /* Frameworks */,
-				8A8656065510D2D5A6D2CCCBDB9E6D50 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7C8DA8E868DFEB8F4F8FC71FEBA9DE58 /* PBXTargetDependency */,
-			);
-			name = "Pods-TrueTransitionTests";
-			productName = "Pods-TrueTransitionTests";
-			productReference = 1CDEA13A079D7FC66F78CA568CB28383 /* Pods_TrueTransitionTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		76076E2ED3DA75A65FCCAC68B870B6ED /* Pods-TrueTransition */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B0256B9A7E5E890324A997AA746463C5 /* Build configuration list for PBXNativeTarget "Pods-TrueTransition" */;
-			buildPhases = (
-				6CCE5537A9873867969732827D6C72D0 /* Headers */,
-				F885A8EA0D04454E64076A8D0C183EBC /* Sources */,
-				E7531778F26FE73989579E846AB4857D /* Frameworks */,
-				1C043AD2DEA3D07CFA988C200266C844 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF6319B28ADA81A7C42561FD96562C6C /* PBXTargetDependency */,
-			);
-			name = "Pods-TrueTransition";
-			productName = "Pods-TrueTransition";
-			productReference = 6E31D1EDD3905FAFEC33EDED6FEF919E /* Pods_TrueTransition.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A4478FB9FC8F550A863A87988B94C9B7 /* TrueTransition */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 350C622164A6E717BADE84FF47CFBEAD /* Build configuration list for PBXNativeTarget "TrueTransition" */;
-			buildPhases = (
-				22A67367E87C92EF02BA75D544EA749B /* Headers */,
-				FAF1A951BF8A3026B7CABCD68946A310 /* Sources */,
-				D4CF49FEE9B541DF75BD928DEF9411D4 /* Frameworks */,
-				EFF9F0A55C855A03DD9001F657ABAB75 /* Resources */,
+				D562337DD604134B6D5A94132E5CA19A /* Headers */,
+				9AB2A5CF39F8DA2523323A6656F0D52E /* Sources */,
+				3E2B1812FCA9A665A439C6CA3AF50762 /* Frameworks */,
+				4251E6E526544744319ACC4747413588 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +234,26 @@
 			);
 			name = TrueTransition;
 			productName = TrueTransition;
-			productReference = DD8CCA740565AC3C55E0005ED4E3AF9D /* TrueTransition.framework */;
+			productReference = 7C82D7E747B07262CD42630CC7ED08D2 /* TrueTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB7D9E5E9F8E76EB37308F70915549AD /* Pods-TrueTransitionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F964246AFD300F5550D0DC4BB0430327 /* Build configuration list for PBXNativeTarget "Pods-TrueTransitionExample" */;
+			buildPhases = (
+				A1B630F1B20CCDCF9FC816E0882D705E /* Headers */,
+				A8E156F314334173462C241506D7CF42 /* Sources */,
+				76C38F9E667AA123E319F3945E9F338B /* Frameworks */,
+				758D2C8CA9DB842AA8B3C2BFE7591472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFA15F13111BD316E0D7CA4F5B61457 /* PBXTargetDependency */,
+			);
+			name = "Pods-TrueTransitionExample";
+			productName = "Pods-TrueTransitionExample";
+			productReference = 522E5D1BE0D2255019D50FF2C95CD190 /* Pods_TrueTransitionExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -315,44 +262,36 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E65687BB18EE06727D8ADE10AD2A42B7 /* Products */;
+			productRefGroup = 804A132FE1F7D8BDAD5ED9FB12E89FC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76076E2ED3DA75A65FCCAC68B870B6ED /* Pods-TrueTransition */,
-				0BBBAC8CA11F7C3BBE90348E6CA66061 /* Pods-TrueTransitionTests */,
-				A4478FB9FC8F550A863A87988B94C9B7 /* TrueTransition */,
+				FB7D9E5E9F8E76EB37308F70915549AD /* Pods-TrueTransitionExample */,
+				B5AF9A5EB44D734985EF6E628CD0CFFF /* TrueTransition */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C043AD2DEA3D07CFA988C200266C844 /* Resources */ = {
+		4251E6E526544744319ACC4747413588 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A8656065510D2D5A6D2CCCBDB9E6D50 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFF9F0A55C855A03DD9001F657ABAB75 /* Resources */ = {
+		758D2C8CA9DB842AA8B3C2BFE7591472 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,90 +301,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C86E0CF2890A99182C870C63B3894E17 /* Sources */ = {
+		9AB2A5CF39F8DA2523323A6656F0D52E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89E98B554615665B83E6016FE0D22703 /* Pods-TrueTransitionTests-dummy.m in Sources */,
+				8080A0C57898F661CC7FB1439E5A5D8F /* CardsTransitionProtocol.swift in Sources */,
+				FC9AB2F0E3A5E1E40B06BD46242711A2 /* CardsViewController.swift in Sources */,
+				406BFFDE2302D8245A8A340A2DB76EEB /* CardsViewController.xib in Sources */,
+				BC9E3C867431417099E2903902668F3A /* Transition.swift in Sources */,
+				36B3A865E57B4307F9948D99AF46D7AF /* TrueTransition-dummy.m in Sources */,
+				9E22000ECA69958E7FF3A30919CB2A5A /* UIView+snapshot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F885A8EA0D04454E64076A8D0C183EBC /* Sources */ = {
+		A8E156F314334173462C241506D7CF42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE50E2FFC93B13EF1292C5D8BFDBF24F /* Pods-TrueTransition-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAF1A951BF8A3026B7CABCD68946A310 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52555CEE956E4284A9B986C90E84B80D /* Transition.swift in Sources */,
-				9F0ABA2EBA639E92329D7FDB684BC7E7 /* TrueTransition-dummy.m in Sources */,
+				F71157E1ABAD168D29E435CA273AAD52 /* Pods-TrueTransitionExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7C8DA8E868DFEB8F4F8FC71FEBA9DE58 /* PBXTargetDependency */ = {
+		BFFA15F13111BD316E0D7CA4F5B61457 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TrueTransition;
-			target = A4478FB9FC8F550A863A87988B94C9B7 /* TrueTransition */;
-			targetProxy = F2371D3E8DC7466346BB856F67B0E73F /* PBXContainerItemProxy */;
-		};
-		DF6319B28ADA81A7C42561FD96562C6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TrueTransition;
-			target = A4478FB9FC8F550A863A87988B94C9B7 /* TrueTransition */;
-			targetProxy = 2C15B33FCD6752712B933EA62BA77DCD /* PBXContainerItemProxy */;
+			target = B5AF9A5EB44D734985EF6E628CD0CFFF /* TrueTransition */;
+			targetProxy = 6AE3450A2D32EA1E033EB913A053366E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02ABF90C8D4444B3E09116D80AE5A365 /* Debug */ = {
+		12791E2DDD423BB4A34E13A39D889E2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C9B928374C4D2858A74D9A1194F351B /* Pods-TrueTransition.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrueTransition/Pods-TrueTransition-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrueTransition/Pods-TrueTransition.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2847B437718EB0A893BB329CE5003CFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2C9EE4BEE866B81F6B55CCCBBA9AF7B /* TrueTransition.xcconfig */;
+			baseConfigurationReference = B29B9AE3F6E5A57617A203760B83D710 /* TrueTransition.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -479,84 +370,7 @@
 			};
 			name = Debug;
 		};
-		2AE96AD9C6C29F6055391F5697A4FCE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2614DD207A39118806465470B8D7DFF8 /* Pods-TrueTransition.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrueTransition/Pods-TrueTransition-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrueTransition/Pods-TrueTransition.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3206153EFE45EDB3E380A51DA34E7517 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D0A80087AA4EEE3DD2D4F7E2248C7C6 /* Pods-TrueTransitionTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -611,14 +425,51 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		5EC48DDB163CDB1B6BCC332C92022A65 /* Release */ = {
+		B1E83038A47878C415E4EEE23DFCCAE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C74D3EB93890E05A0F2CE1226AC652A0 /* Pods-TrueTransitionTests.release.xcconfig */;
+			baseConfigurationReference = B29B9AE3F6E5A57617A203760B83D710 /* TrueTransition.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TrueTransition/TrueTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrueTransition/TrueTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TrueTransition/TrueTransition.modulemap";
+				PRODUCT_MODULE_NAME = TrueTransition;
+				PRODUCT_NAME = TrueTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D89ECB5D3128D2031B1DE18F34F6904E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BA2FA1C2DBA87CF8A20ADF85B594E0 /* Pods-TrueTransitionExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -631,7 +482,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -640,7 +491,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -655,7 +506,7 @@
 			};
 			name = Release;
 		};
-		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -714,15 +565,16 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9A7E777DC6A80776DCA1392148E620F0 /* Release */ = {
+		E2B237D86A18E2BCE2B6EE2C751209E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2C9EE4BEE866B81F6B55CCCBBA9AF7B /* TrueTransition.xcconfig */;
+			baseConfigurationReference = 1320771CCF919B0ABFEFB2BE76E5C6D4 /* Pods-TrueTransitionExample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -733,8 +585,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TrueTransition/TrueTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TrueTransition/TrueTransition-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -742,28 +593,29 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/TrueTransition/TrueTransition.modulemap";
-				PRODUCT_MODULE_NAME = TrueTransition;
-				PRODUCT_NAME = TrueTransition;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		350C622164A6E717BADE84FF47CFBEAD /* Build configuration list for PBXNativeTarget "TrueTransition" */ = {
+		18FBA69465DBC8713FFCBFCA021A9A70 /* Build configuration list for PBXNativeTarget "TrueTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2847B437718EB0A893BB329CE5003CFB /* Debug */,
-				9A7E777DC6A80776DCA1392148E620F0 /* Release */,
+				12791E2DDD423BB4A34E13A39D889E2A /* Debug */,
+				B1E83038A47878C415E4EEE23DFCCAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -771,26 +623,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
-				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57E1F0AAA9B221E1557DCF3CD99F15D0 /* Build configuration list for PBXNativeTarget "Pods-TrueTransitionTests" */ = {
+		F964246AFD300F5550D0DC4BB0430327 /* Build configuration list for PBXNativeTarget "Pods-TrueTransitionExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3206153EFE45EDB3E380A51DA34E7517 /* Debug */,
-				5EC48DDB163CDB1B6BCC332C92022A65 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B0256B9A7E5E890324A997AA746463C5 /* Build configuration list for PBXNativeTarget "Pods-TrueTransition" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02ABF90C8D4444B3E09116D80AE5A365 /* Debug */,
-				2AE96AD9C6C29F6055391F5697A4FCE9 /* Release */,
+				E2B237D86A18E2BCE2B6EE2C751209E6 /* Debug */,
+				D89ECB5D3128D2031B1DE18F34F6904E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

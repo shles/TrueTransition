@@ -4,26 +4,19 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-TrueTransition.xcscheme</key>
+		<key>Pods-TrueTransitionExample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-TrueTransitionTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>TrueTransition.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

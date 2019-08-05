@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrueTransition'
-  s.version          = '0.4.5'
+  s.version          = '0.4.6'
   s.summary          = 'Simple pod for decoupling transitions.'
  
   s.description      = <<-DESC
@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/shles/TrueTransition.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '11.0'
-  s.source_files = 'Source/*.swift'
+  s.source_files = 'Source/*.swift', 'Source/CardsViewController/*.{swift,xib}'
   s.swift_version = '4.2'
 end
