@@ -81,7 +81,8 @@ open class CardsTransition: NSObject, Transition {
                                                      bundle: Bundle(for: self.classForCoder))
         let controller = controllerToPresent()
         controller.modalPresentationStyle = .overCurrentContext
-        cardViewController.backingImage = vc.view.makeSnapshot()
+//        UIApplication.shared.keyWindow?.makeSnapshot()
+        cardViewController.backingImage = UIApplication.shared.keyWindow?.makeSnapshot()
         cardViewController.controllerToPresent = controller
         
         vc.present(cardViewController, animated: false)
