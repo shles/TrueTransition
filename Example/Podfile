@@ -1,10 +1,10 @@
 platform :ios, '11.0'
 use_frameworks!
 
-target 'TrueTransition' do
+target 'TrueTransitionExample' do
   pod 'TrueTransition', :path => '../'  
 end
 
-target 'TrueTransitionTests' do
-  pod 'TrueTransition', :path => '../'  
-end
+#target 'TrueTransitionTests' do
+#  pod 'TrueTransition', :path => '../'  
+#end

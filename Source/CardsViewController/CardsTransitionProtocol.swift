@@ -6,6 +6,10 @@
 //  Copyright © 2019 Alexandr Booharin. All rights reserved.
 //
 
-protocol CardsTransitionProtocol: class {
+public protocol CardsTransitionProtocol: class {
     func goBack()
+}
+
+public protocol CardContentControllerProtocol: class {
+    var delegate: CardsTransitionProtocol? {get set}
 }

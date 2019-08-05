@@ -17,7 +17,7 @@ class CardsViewController: UIViewController, CardsTransitionProtocol {
     @IBOutlet weak var backingImageView: UIImageView!
     @IBOutlet weak var dimmerLayerView: UIView!
     
-    
+    //TODO: make configurable in transition
     var backingImage: UIImage?
     let cardCornerRadius: CGFloat = 10
     
@@ -25,7 +25,7 @@ class CardsViewController: UIViewController, CardsTransitionProtocol {
     let backingImageEdgeInset: CGFloat = 15.0
     var isPresented = false
     
-    var controllerToPresent: UIViewController!
+    var controllerToPresent: (UIViewController & CardContentControllerProtocol)!
     
     // MARK: - View Life Cycle
     override func awakeFromNib() {
@@ -86,7 +86,7 @@ extension CardsViewController {
             self.configureBackingImageInPosition(presenting: presenting)
             self.view.layoutIfNeeded()
             
-            controllerToPresent.delegate = self
+            self.controllerToPresent.delegate = self
             self.present(self.controllerToPresent, animated: true)
         })
     }

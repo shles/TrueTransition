@@ -3,32 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4519DDF0A5B7F1E88BE2F7A9 /* Pods_TrueTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF778485676D1D5C9F21F49B /* Pods_TrueTransition.framework */; };
 		700B7AA52211A88F00CC9D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AA42211A88F00CC9D15 /* AppDelegate.swift */; };
 		700B7AA72211A88F00CC9D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B7AA62211A88F00CC9D15 /* ViewController.swift */; };
 		700B7AAA2211A88F00CC9D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B7AA82211A88F00CC9D15 /* Main.storyboard */; };
 		700B7AAC2211A88F00CC9D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700B7AAB2211A88F00CC9D15 /* Assets.xcassets */; };
 		700B7AAF2211A88F00CC9D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B7AAD2211A88F00CC9D15 /* LaunchScreen.storyboard */; };
+		708AC90D22F82AAB007EEE03 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708AC90C22F82AAB007EEE03 /* CardViewController.swift */; };
+		E575472A4B17BFBE50013B4B /* Pods_TrueTransitionExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F66237F97938F854FF6F /* Pods_TrueTransitionExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25BC6E13ADFF61552D53AEA3 /* Pods-TrueTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransition.debug.xcconfig"; path = "Target Support Files/Pods-TrueTransition/Pods-TrueTransition.debug.xcconfig"; sourceTree = "<group>"; };
 		3CAAC42383CC589E620076D5 /* Pods-TrueTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransition.release.xcconfig"; path = "Target Support Files/Pods-TrueTransition/Pods-TrueTransition.release.xcconfig"; sourceTree = "<group>"; };
+		5F03F66237F97938F854FF6F /* Pods_TrueTransitionExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueTransitionExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		676B67E1906931003A09EFCF /* Pods_TrueTransitionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueTransitionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		700B7AA12211A88F00CC9D15 /* TrueTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		700B7AA12211A88F00CC9D15 /* TrueTransitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueTransitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		700B7AA42211A88F00CC9D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		700B7AA62211A88F00CC9D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		700B7AA92211A88F00CC9D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		700B7AAB2211A88F00CC9D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700B7AAE2211A88F00CC9D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		700B7AB02211A88F00CC9D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708AC90A22F82774007EEE03 /* TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TrueTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		708AC90C22F82AAB007EEE03 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		84D98CEF63523AE25E1F8BE5 /* Pods-TrueTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransitionTests.debug.xcconfig"; path = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A56D5F5653DA429C2AE5E15 /* Pods-TrueTransitionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransitionExample.debug.xcconfig"; path = "Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A0D2B9B909B77B2180A0B617 /* Pods-TrueTransitionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransitionExample.release.xcconfig"; path = "Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample.release.xcconfig"; sourceTree = "<group>"; };
 		AE00EF11BA7A31846D0EE7BB /* Pods-TrueTransitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransitionTests.release.xcconfig"; path = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests.release.xcconfig"; sourceTree = "<group>"; };
-		FF778485676D1D5C9F21F49B /* Pods_TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrueTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4519DDF0A5B7F1E88BE2F7A9 /* Pods_TrueTransition.framework in Frameworks */,
+				E575472A4B17BFBE50013B4B /* Pods_TrueTransitionExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,8 +51,9 @@
 		6C3C4C57E496C4E4D9D5912A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF778485676D1D5C9F21F49B /* Pods_TrueTransition.framework */,
+				708AC90A22F82774007EEE03 /* TrueTransition.framework */,
 				676B67E1906931003A09EFCF /* Pods_TrueTransitionTests.framework */,
+				5F03F66237F97938F854FF6F /* Pods_TrueTransitionExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -65,7 +71,7 @@
 		700B7AA22211A88F00CC9D15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				700B7AA12211A88F00CC9D15 /* TrueTransition.app */,
+				700B7AA12211A88F00CC9D15 /* TrueTransitionExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +82,7 @@
 				700B7AA42211A88F00CC9D15 /* AppDelegate.swift */,
 				700B7AA62211A88F00CC9D15 /* ViewController.swift */,
 				700B7AA82211A88F00CC9D15 /* Main.storyboard */,
+				708AC90C22F82AAB007EEE03 /* CardViewController.swift */,
 				700B7AAB2211A88F00CC9D15 /* Assets.xcassets */,
 				700B7AAD2211A88F00CC9D15 /* LaunchScreen.storyboard */,
 				700B7AB02211A88F00CC9D15 /* Info.plist */,
@@ -90,6 +97,8 @@
 				3CAAC42383CC589E620076D5 /* Pods-TrueTransition.release.xcconfig */,
 				84D98CEF63523AE25E1F8BE5 /* Pods-TrueTransitionTests.debug.xcconfig */,
 				AE00EF11BA7A31846D0EE7BB /* Pods-TrueTransitionTests.release.xcconfig */,
+				8A56D5F5653DA429C2AE5E15 /* Pods-TrueTransitionExample.debug.xcconfig */,
+				A0D2B9B909B77B2180A0B617 /* Pods-TrueTransitionExample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -97,23 +106,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		700B7AA02211A88F00CC9D15 /* TrueTransition */ = {
+		700B7AA02211A88F00CC9D15 /* TrueTransitionExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 700B7AB32211A88F00CC9D15 /* Build configuration list for PBXNativeTarget "TrueTransition" */;
+			buildConfigurationList = 700B7AB32211A88F00CC9D15 /* Build configuration list for PBXNativeTarget "TrueTransitionExample" */;
 			buildPhases = (
 				412237F111EB79C64BCD9FED /* [CP] Check Pods Manifest.lock */,
 				700B7A9D2211A88F00CC9D15 /* Sources */,
 				700B7A9E2211A88F00CC9D15 /* Frameworks */,
 				700B7A9F2211A88F00CC9D15 /* Resources */,
-				7B098081AC0AAF3A347DF23E /* [CP] Embed Pods Frameworks */,
+				0CBF1FD2CE77426F90D5C00F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TrueTransition;
+			name = TrueTransitionExample;
 			productName = TrueTransition;
-			productReference = 700B7AA12211A88F00CC9D15 /* TrueTransition.app */;
+			productReference = 700B7AA12211A88F00CC9D15 /* TrueTransitionExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 700B7A9C2211A88F00CC9D15 /* Build configuration list for PBXProject "TrueTransition" */;
+			buildConfigurationList = 700B7A9C2211A88F00CC9D15 /* Build configuration list for PBXProject "TrueTransitionExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				700B7AA02211A88F00CC9D15 /* TrueTransition */,
+				700B7AA02211A88F00CC9D15 /* TrueTransitionExample */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +172,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0CBF1FD2CE77426F90D5C00F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		412237F111EB79C64BCD9FED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,33 +204,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TrueTransition-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TrueTransitionExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7B098081AC0AAF3A347DF23E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TrueTransition/Pods-TrueTransition-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TrueTransition/TrueTransition.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrueTransition.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrueTransition/Pods-TrueTransition-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -216,6 +220,7 @@
 			files = (
 				700B7AA72211A88F00CC9D15 /* ViewController.swift in Sources */,
 				700B7AA52211A88F00CC9D15 /* AppDelegate.swift in Sources */,
+				708AC90D22F82AAB007EEE03 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +364,7 @@
 		};
 		700B7AB42211A88F00CC9D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25BC6E13ADFF61552D53AEA3 /* Pods-TrueTransition.debug.xcconfig */;
+			baseConfigurationReference = 8A56D5F5653DA429C2AE5E15 /* Pods-TrueTransitionExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,7 +384,7 @@
 		};
 		700B7AB52211A88F00CC9D15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CAAC42383CC589E620076D5 /* Pods-TrueTransition.release.xcconfig */;
+			baseConfigurationReference = A0D2B9B909B77B2180A0B617 /* Pods-TrueTransitionExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -400,7 +405,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		700B7A9C2211A88F00CC9D15 /* Build configuration list for PBXProject "TrueTransition" */ = {
+		700B7A9C2211A88F00CC9D15 /* Build configuration list for PBXProject "TrueTransitionExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				700B7AB12211A88F00CC9D15 /* Debug */,
@@ -409,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		700B7AB32211A88F00CC9D15 /* Build configuration list for PBXNativeTarget "TrueTransition" */ = {
+		700B7AB32211A88F00CC9D15 /* Build configuration list for PBXNativeTarget "TrueTransitionExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				700B7AB42211A88F00CC9D15 /* Debug */,

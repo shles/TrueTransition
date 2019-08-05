@@ -67,20 +67,23 @@ open class  NewWindowRootControllerTransition: Transition {
     }
 }
 
-open class CardsTransition: Transition {
+open class CardsTransition: NSObject, Transition {
     
-    private var controllerToPresent: () -> UIViewController
+    private var controllerToPresent: () -> (UIViewController & CardContentControllerProtocol)
     
-    public init(controllerToPresent: @escaping () -> UIViewController)  {
+    public init(controllerToPresent: @escaping () -> (UIViewController & CardContentControllerProtocol))  {
         self.controllerToPresent = controllerToPresent
     }
     
     public func perform(on vc: UIViewController) {
         
         let cardViewController = CardsViewController(nibName: "CardsViewController",
-                                                     bundle: nil)
+                                                     bundle: Bundle(for: self.classForCoder))
+        let controller = controllerToPresent()
+        controller.modalPresentationStyle = .overCurrentContext
         cardViewController.backingImage = vc.view.makeSnapshot()
-        cardViewController.controllerToPresent = controllerToPresent()
+        cardViewController.controllerToPresent = controller
+        
         vc.present(cardViewController, animated: false)
     }
 }

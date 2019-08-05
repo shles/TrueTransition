@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TrueTransitionVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TrueTransitionVersionString[];
+FOUNDATION_EXPORT double Pods_TrueTransitionExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_TrueTransitionExampleVersionString[];
 
