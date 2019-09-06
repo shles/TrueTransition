@@ -25,7 +25,7 @@ class CardsViewController: UIViewController, CardsTransitionProtocol {
     let backingImageEdgeInset: CGFloat = 15.0
     var isPresented = false
     
-    var controllerToPresent: (UIViewController & CardContentControllerProtocol)!
+    var controllerToPresent: (UIViewController & CardContentControllerProtocol)
     
     // MARK: - View Life Cycle
     override func awakeFromNib() {
