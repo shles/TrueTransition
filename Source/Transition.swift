@@ -10,6 +10,16 @@ public protocol Transition {
     func perform(on vc: UIViewController)
 }
 
+public protocol CustomAnimation {
+    public func perform(on vc: UIViewController,
+                        durationIn: Double,
+                        velocityIn: CGFloat,
+                        dampingIn: CGFloat,
+                        durationOut: Double,
+                        velocityOut: CGFloat,
+                        dampingOut: CGFloat)
+}
+
 //TODO: make options to present non animated or smth
 
 public class PushTransition: Transition {
@@ -63,11 +73,10 @@ open class  NewWindowRootControllerTransition: Transition {
         viewController.present(vc, animated: true) {
             UIApplication.shared.keyWindow?.rootViewController = vc
         }
-        
     }
 }
 
-open class CardsTransition: NSObject, Transition {
+open class CardsTransition: NSObject, Transition, CustomAnimation {
     
     private var controllerToPresent: () -> (UIViewController & CardContentControllerProtocol)
     
@@ -75,15 +84,29 @@ open class CardsTransition: NSObject, Transition {
         self.controllerToPresent = controllerToPresent
     }
     
-    public func perform(on vc: UIViewController) {
+    public func perform(on vc: UIViewController,
+                        durationIn: Double,
+                        velocityIn: CGFloat,
+                        dampingIn: CGFloat,
+                        durationOut: Double,
+                        velocityOut: CGFloat,
+                        dampingOut: CGFloat) {
         
         let cardViewController = CardsViewController(nibName: "CardsViewController",
                                                      bundle: Bundle(for: self.classForCoder))
         let controller = controllerToPresent()
         controller.modalPresentationStyle = .overCurrentContext
-//        UIApplication.shared.keyWindow?.makeSnapshot()
         cardViewController.backingImage = UIApplication.shared.keyWindow?.makeSnapshot()
         cardViewController.controllerToPresent = controller
+        
+        //animationParameters
+        cardViewController.durationIn = durationIn
+        cardViewController.velocityIn = velocityIn
+        cardViewController.dampingIn = dampingIn
+        
+        cardViewController.durationOut = durationOut
+        cardViewController.velocityOut = velocityOut
+        cardViewController.dampingOut = dampingOut
         
         vc.present(cardViewController, animated: false)
     }
