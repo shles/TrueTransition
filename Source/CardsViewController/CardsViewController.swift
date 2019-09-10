@@ -22,18 +22,18 @@ class CardsViewController: UIViewController, CardsTransitionProtocol {
     let cardCornerRadius: CGFloat = 10
     
     // in
-    var durationIn = 0.3
+    var durationIn: Double = 0.3
     var velocityIn: CGFloat = 0.1
     var dampingIn: CGFloat = 0.8
     
     // out
-    var durationOut = 0.3
+    var durationOut: Double = 0.3
     var velocityOut: CGFloat = 0.1
-    var dampimgOut: CGFloat = 0.8
+    var dampingOut: CGFloat = 0.8
     let backingImageEdgeInset: CGFloat = 15.0
     var isPresented = false
     
-    var controllerToPresent: (UIViewController & CardContentControllerProtocol)
+    var controllerToPresent: (UIViewController & CardContentControllerProtocol)?
     
     // MARK: - View Life Cycle
     override func awakeFromNib() {
@@ -86,7 +86,7 @@ extension CardsViewController {
         UIView.animate(
             withDuration: self.durationOut,
             delay: 0.0,
-            usingSpringWithDamping: self.dampimgOut,
+            usingSpringWithDamping: self.dampingOut,
             initialSpringVelocity: self.velocityOut,
             animations: {
                 
@@ -107,11 +107,13 @@ extension CardsViewController {
             initialSpringVelocity: self.velocityIn,
             animations: {
                 
-            self.configureBackingImageInPosition(presenting: presenting)
-            self.view.layoutIfNeeded()
-            
-            self.controllerToPresent.delegate = self
-            self.present(self.controllerToPresent, animated: true)
+                self.configureBackingImageInPosition(presenting: presenting)
+                self.view.layoutIfNeeded()
+                
+                if let vc = self.controllerToPresent {
+                    vc.delegate = self
+                    self.present(vc, animated: true)
+                }
         })
     }
     
