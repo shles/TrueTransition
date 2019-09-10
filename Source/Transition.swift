@@ -11,13 +11,13 @@ public protocol Transition {
 }
 
 public protocol CustomAnimation {
-    public func perform(on vc: UIViewController,
-                        durationIn: Double,
-                        velocityIn: CGFloat,
-                        dampingIn: CGFloat,
-                        durationOut: Double,
-                        velocityOut: CGFloat,
-                        dampingOut: CGFloat)
+    func perform(on vc: UIViewController,
+                 durationIn: Double,
+                 velocityIn: CGFloat,
+                 dampingIn: CGFloat,
+                 durationOut: Double,
+                 velocityOut: CGFloat,
+                 dampingOut: CGFloat)
 }
 
 //TODO: make options to present non animated or smth
@@ -76,7 +76,7 @@ open class  NewWindowRootControllerTransition: Transition {
     }
 }
 
-open class CardsTransition: NSObject, Transition, CustomAnimation {
+open class CardsTransition: NSObject, CustomAnimation {
     
     private var controllerToPresent: () -> (UIViewController & CardContentControllerProtocol)
     
