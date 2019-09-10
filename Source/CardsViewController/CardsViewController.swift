@@ -21,7 +21,15 @@ class CardsViewController: UIViewController, CardsTransitionProtocol {
     var backingImage: UIImage?
     let cardCornerRadius: CGFloat = 10
     
-    let primaryDuration = 0.3
+    // in
+    var durationIn = 0.3
+    var velocityIn: CGFloat = 0.1
+    var dampingIn: CGFloat = 0.8
+    
+    // out
+    var durationOut = 0.3
+    var velocityOut: CGFloat = 0.1
+    var dampimgOut: CGFloat = 0.8
     let backingImageEdgeInset: CGFloat = 15.0
     var isPresented = false
     
@@ -72,8 +80,16 @@ extension CardsViewController {
         backingImageView.layer.cornerRadius = cornerRadius
     }
     
+    // MARK: - Animate Out
     private func animateOut(presenting: Bool, completion: @escaping ((Bool) -> ())) {
-        UIView.animate(withDuration: primaryDuration, animations: {
+        
+        UIView.animate(
+            withDuration: self.durationOut,
+            delay: 0.0,
+            usingSpringWithDamping: self.dampimgOut,
+            initialSpringVelocity: self.velocityOut,
+            animations: {
+                
             self.configureBackingImageInPosition(presenting: presenting)
             self.view.layoutIfNeeded()
         }, completion: { finished in
@@ -81,8 +97,16 @@ extension CardsViewController {
         })
     }
     
+    // MARK: - Animate In
     private func animateIn(presenting: Bool) {
-        UIView.animate(withDuration: primaryDuration, animations: {
+        
+        UIView.animate(
+            withDuration: self.durationIn,
+            delay: 0.0,
+            usingSpringWithDamping: self.dampingIn,
+            initialSpringVelocity: self.velocityIn,
+            animations: {
+                
             self.configureBackingImageInPosition(presenting: presenting)
             self.view.layoutIfNeeded()
             
