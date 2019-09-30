@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrueTransition'
-  s.version          = '0.4.9'
+  s.version          = '0.4.10'
   s.summary          = 'Simple pod for decoupling transitions.'
  
   s.description      = <<-DESC
