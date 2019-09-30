@@ -48,6 +48,19 @@ open class PresentTransition: Transition {
     }
 }
 
+open class PresentTransitionWithoutAnimation: Transition {
+
+    private var controllerToPresent: () -> UIViewController
+
+    public init(controllerToPresent: @escaping () -> UIViewController)  {
+        self.controllerToPresent = controllerToPresent
+    }
+
+    public func perform(on vc: UIViewController) {
+        vc.present(controllerToPresent(), animated: false)
+    }
+}
+
 open class PopTransition: Transition {
     public func perform(on vc: UIViewController) {
         vc.navigationController?.popViewController(animated: true)
