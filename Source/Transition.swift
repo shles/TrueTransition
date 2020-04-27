@@ -147,26 +147,29 @@ open class CardsTransition: NSObject, Transition {
     }
 }
 
-open class DefaultErrorAlertTransition: Transition {
+
+open class AlertTransition: Transition {
     
     private var title: String
     private var message: String
     private var okActionTitle: String
-
-    public init(title: String = "Error", message: String, okActionTitle: String = "Ok") {
+    private var okHandler: ((UIAlertAction) -> ())?
+    
+    ///Default values are for error alert.
+    public init(title: String = "Error", message: String, okActionTitle: String = "Ok", okHandler: ((UIAlertAction) -> ())? = nil) {
         self.title = title
         self.message = message
         self.okActionTitle = okActionTitle
+        self.okHandler = okHandler
     }
     
     public func perform(on vc: UIViewController) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: okActionTitle, style: .default, handler: nil))
+        alertController.addAction(UIAlertAction(title: okActionTitle, style: .default, handler: okHandler))
         vc.present(alertController, animated: true, completion: nil)
     }
     
 }
-
 
 class EmptyTransition: Transition {
     func perform(on vc: UIViewController) {}
