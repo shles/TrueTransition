@@ -62,16 +62,22 @@ open class PresentTransitionWithoutAnimation: Transition {
 }
 
 open class PopTransition: Transition {
+    
     public func perform(on vc: UIViewController) {
         vc.navigationController?.popViewController(animated: true)
     }
+    
+    public init() {}
 }
 
 
 open class DismissTransition: Transition {
+    
     public func perform(on viewController: UIViewController) {
         viewController.dismiss(animated: true)
     }
+    
+    public init() {}
 }
 
 open class  NewWindowRootControllerTransition: Transition {
