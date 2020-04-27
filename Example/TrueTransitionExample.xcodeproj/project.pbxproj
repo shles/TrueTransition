@@ -12,7 +12,7 @@
 		700B7AAA2211A88F00CC9D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B7AA82211A88F00CC9D15 /* Main.storyboard */; };
 		700B7AAC2211A88F00CC9D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700B7AAB2211A88F00CC9D15 /* Assets.xcassets */; };
 		700B7AAF2211A88F00CC9D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B7AAD2211A88F00CC9D15 /* LaunchScreen.storyboard */; };
-		708AC90D22F82AAB007EEE03 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708AC90C22F82AAB007EEE03 /* CardViewController.swift */; };
+		7072DD5B2457980E004BEA01 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7072DD5A2457980E004BEA01 /* NavigationController.swift */; };
 		E575472A4B17BFBE50013B4B /* Pods_TrueTransitionExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F66237F97938F854FF6F /* Pods_TrueTransitionExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		700B7AAB2211A88F00CC9D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700B7AAE2211A88F00CC9D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		700B7AB02211A88F00CC9D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7072DD5A2457980E004BEA01 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		708AC90A22F82774007EEE03 /* TrueTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TrueTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		708AC90C22F82AAB007EEE03 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		84D98CEF63523AE25E1F8BE5 /* Pods-TrueTransitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransitionTests.debug.xcconfig"; path = "Target Support Files/Pods-TrueTransitionTests/Pods-TrueTransitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A56D5F5653DA429C2AE5E15 /* Pods-TrueTransitionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransitionExample.debug.xcconfig"; path = "Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample.debug.xcconfig"; sourceTree = "<group>"; };
 		A0D2B9B909B77B2180A0B617 /* Pods-TrueTransitionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrueTransitionExample.release.xcconfig"; path = "Target Support Files/Pods-TrueTransitionExample/Pods-TrueTransitionExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,10 +79,10 @@
 		700B7AA32211A88F00CC9D15 /* TrueTransition */ = {
 			isa = PBXGroup;
 			children = (
+				7072DD5A2457980E004BEA01 /* NavigationController.swift */,
 				700B7AA42211A88F00CC9D15 /* AppDelegate.swift */,
 				700B7AA62211A88F00CC9D15 /* ViewController.swift */,
 				700B7AA82211A88F00CC9D15 /* Main.storyboard */,
-				708AC90C22F82AAB007EEE03 /* CardViewController.swift */,
 				700B7AAB2211A88F00CC9D15 /* Assets.xcassets */,
 				700B7AAD2211A88F00CC9D15 /* LaunchScreen.storyboard */,
 				700B7AB02211A88F00CC9D15 /* Info.plist */,
@@ -219,8 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				700B7AA72211A88F00CC9D15 /* ViewController.swift in Sources */,
+				7072DD5B2457980E004BEA01 /* NavigationController.swift in Sources */,
 				700B7AA52211A88F00CC9D15 /* AppDelegate.swift in Sources */,
-				708AC90D22F82AAB007EEE03 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
