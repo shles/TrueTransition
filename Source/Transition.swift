@@ -113,7 +113,7 @@ open class AlertTransition: Transition {
     
 }
 
-class EmptyTransition: Transition {
+open class EmptyTransition: Transition {
     
     public init() {}
     
