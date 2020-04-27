@@ -168,3 +168,8 @@ open class DefaultErrorAlertTransition: Transition {
 }
 
 
+class EmptyTransition: Transition {
+    func perform(on vc: UIViewController) {}
+    
+    public init() {}
+}
