@@ -13,7 +13,6 @@
 		7072DD8B24579B1F004BEA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7072DD8324579B1F004BEA01 /* Main.storyboard */; };
 		7072DD8C24579B1F004BEA01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7072DD8524579B1F004BEA01 /* AppDelegate.swift */; };
 		7072DD8D24579B1F004BEA01 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7072DD8624579B1F004BEA01 /* NavigationController.swift */; };
-		7072DD8E24579B1F004BEA01 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7072DD8724579B1F004BEA01 /* Info.plist */; };
 		E575472A4B17BFBE50013B4B /* Pods_TrueTransitionExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F03F66237F97938F854FF6F /* Pods_TrueTransitionExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -164,7 +163,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7072DD8E24579B1F004BEA01 /* Info.plist in Resources */,
 				7072DD8B24579B1F004BEA01 /* Main.storyboard in Resources */,
 				7072DD8924579B1F004BEA01 /* Assets.xcassets in Resources */,
 				7072DD8A24579B1F004BEA01 /* LaunchScreen.storyboard in Resources */,
