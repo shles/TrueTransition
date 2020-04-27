@@ -10,77 +10,77 @@ public protocol Transition {
     func perform(on vc: UIViewController)
 }
 
-
-//TODO: make options to present non animated or smth
-
 public class PushTransition: Transition {
 
     private var controllerToPush: () -> UIViewController
-
-    public init(controllerToPush: @escaping () -> UIViewController)  {
+    private var animated: Bool
+    
+    public init(controllerToPush: @escaping () -> UIViewController, animated: Bool = true)  {
         self.controllerToPush = controllerToPush
+        self.animated = animated
     }
 
     public func perform(on vc: UIViewController) {
-        vc.navigationController?.pushViewController(controllerToPush(), animated: true)
+        vc.navigationController?.pushViewController(controllerToPush(), animated: animated)
     }
 }
 
 open class PresentTransition: Transition {
 
     private var controllerToPresent: () -> UIViewController
+    private var animated: Bool
 
-    public init(controllerToPresent: @escaping () -> UIViewController)  {
+    public init(controllerToPresent: @escaping () -> UIViewController, animated: Bool = true)  {
         self.controllerToPresent = controllerToPresent
+        self.animated = animated
     }
 
     public func perform(on vc: UIViewController) {
-        vc.present(controllerToPresent(), animated: true)
-    }
-}
-
-open class PresentTransitionWithoutAnimation: Transition {
-
-    private var controllerToPresent: () -> UIViewController
-
-    public init(controllerToPresent: @escaping () -> UIViewController)  {
-        self.controllerToPresent = controllerToPresent
-    }
-
-    public func perform(on vc: UIViewController) {
-        vc.present(controllerToPresent(), animated: false)
+        vc.present(controllerToPresent(), animated: animated)
     }
 }
 
 open class PopTransition: Transition {
     
-    public func perform(on vc: UIViewController) {
-        vc.navigationController?.popViewController(animated: true)
+    private var animated: Bool
+    
+    public init(animated: Bool = true) {
+        self.animated = animated
     }
     
-    public init() {}
+    public func perform(on vc: UIViewController) {
+        vc.navigationController?.popViewController(animated: animated)
+    }
+
 }
 
 
 open class DismissTransition: Transition {
     
-    public func perform(on viewController: UIViewController) {
-        viewController.dismiss(animated: true)
-    }
+    private var animated: Bool
     
-    public init() {}
+    public init(animated: Bool = true) {
+        self.animated = animated
+    }
+
+    public func perform(on viewController: UIViewController) {
+        viewController.dismiss(animated: animated)
+    }
 }
 
 open class  NewWindowRootControllerTransition: Transition {
-    private let leadingTo: () -> (UIViewController)
     
-    public init(leadingTo: @escaping () -> (UIViewController)) {
+    private let leadingTo: () -> (UIViewController)
+    private var animated: Bool
+    
+    public init(leadingTo: @escaping () -> (UIViewController), animated: Bool = true) {
         self.leadingTo = leadingTo
+        self.animated = animated
     }
     
     public func perform(on viewController: UIViewController) {
         let vc = leadingTo()
-        viewController.present(vc, animated: true) {
+        viewController.present(vc, animated: animated) {
             UIApplication.shared.keyWindow?.rootViewController = vc
         }
     }
