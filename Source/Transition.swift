@@ -23,6 +23,7 @@ public class PushTransition: Transition {
     public func perform(on vc: UIViewController) {
         vc.navigationController?.pushViewController(controllerToPush(), animated: animated)
     }
+    
 }
 
 open class PresentTransition: Transition {
@@ -38,6 +39,7 @@ open class PresentTransition: Transition {
     public func perform(on vc: UIViewController) {
         vc.present(controllerToPresent(), animated: animated)
     }
+    
 }
 
 open class PopTransition: Transition {
@@ -66,6 +68,7 @@ open class DismissTransition: Transition {
     public func perform(on viewController: UIViewController) {
         viewController.dismiss(animated: animated)
     }
+    
 }
 
 open class  NewWindowRootControllerTransition: Transition {
@@ -84,6 +87,7 @@ open class  NewWindowRootControllerTransition: Transition {
             UIApplication.shared.keyWindow?.rootViewController = vc
         }
     }
+    
 }
 
 open class AlertTransition: Transition {
@@ -110,7 +114,9 @@ open class AlertTransition: Transition {
 }
 
 class EmptyTransition: Transition {
-    func perform(on vc: UIViewController) {}
     
     public init() {}
+    
+    func perform(on vc: UIViewController) {}
+    
 }
