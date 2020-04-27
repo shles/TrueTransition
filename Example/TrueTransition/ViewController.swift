@@ -34,7 +34,8 @@ class ViewController: UIViewController {
             PushTransition(controllerToPush: viewControllerFactory),
             PopTransition(),
             DismissTransition(),
-            AlertTransition(title: "Alert", message: "This is alert", okActionTitle: "Dismiss", okHandler: nil)
+            AlertTransition(title: "Alert", message: "This is alert", okActionTitle: "Dismiss", okHandler: nil),
+            EmptyTransition()
         ]
     }
     

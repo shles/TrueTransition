@@ -1,5 +1,5 @@
 PODS:
-  - TrueTransition (0.4.10)
+  - TrueTransition (1.0.2)
 
 DEPENDENCIES:
   - TrueTransition (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TrueTransition: 798e1cb5c04031bc3ed1e71440b4fe9555240200
+  TrueTransition: 6d84d8256975da804d4f3b115da0228b6f870e6b
 
 PODFILE CHECKSUM: d21fd06636927affcbb265097e968962ffed569f
 
